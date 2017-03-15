@@ -25,8 +25,8 @@ int
 main(int argc, char **argv)
 {
 	int i, len;
-	char *exepath = "\\bin\\win_x64\\eurotrucks2.exe";
-	char *dllpath = "\\core_ets2mp.dll";
+	char *exepath = "\\bin\\win_x64\\amtrucks2.exe";
+	char *dllpath = "\\core_atsmp.dll";
 	const char opts[] = "-nointro -64bit";
 	char cmd[BUF_SIZE];
 	char dll[BUF_SIZE];
@@ -43,8 +43,8 @@ main(int argc, char **argv)
 	snprintf(cmd, sizeof(cmd), "%s%s %s", argv[1], exepath, opts);
 	snprintf(dll, sizeof(dll), "%s%s", argv[2], dllpath);
 
-	SetEnvironmentVariable("SteamGameId", "227300");
-	SetEnvironmentVariable("SteamAppID", "227300");
+	SetEnvironmentVariable("SteamGameId", "270880");
+	SetEnvironmentVariable("SteamAppID", "270880");
 
 	upprivileges();
 	inject(cmd, dll);
