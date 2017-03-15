@@ -25,7 +25,7 @@ int
 main(int argc, char **argv)
 {
 	int i, len;
-	char *exepath = "\\bin\\win_x64\\amtrucks2.exe";
+	char *exepath = "\\bin\\win_x64\\amtrucks.exe";
 	char *dllpath = "\\core_atsmp.dll";
 	const char opts[] = "-nointro -64bit";
 	char cmd[BUF_SIZE];
