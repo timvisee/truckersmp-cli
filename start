@@ -1,0 +1,3 @@
+#!/bin/bash
+
+./truckersmp-cli -eusp -i 1245040 -n timvisee -g "/home/timvisee/.steam/steam/steamapps/common/Euro Truck Simulator 2" --disable-proton-overlay
